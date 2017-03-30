@@ -105,10 +105,10 @@ class Response(object):
                                 self.char_set = self.parameters[key]
 #                        if self.__re_charset.match(self.parameters):
 #                            self.char_set = re.sub(self.__re_charset, '', self.parameters).strip()
-                print('MimeType: {0}'.format(self.mime_type))
-                print('CharSet: {0}'.format(self.char_set))
-                print('MimeType: {0}'.format(self.top_level_type))
-                print('CharSet: {0}'.format(self.sub_type))
-                print('MimeType: {0}'.format(self.suffix))
-                print('CharSet: {0}'.format(self.parameters))
+                print('mime_type: {0}'.format(self.mime_type))
+                print('top_level_type: {0}'.format(self.top_level_type))
+                print('sub_type: {0}'.format(self.sub_type))
+                print('suffix: {0}'.format(self.suffix))
+                print('parameters: {0}'.format(self.parameters))
+                print('char_set: {0}'.format(self.char_set))
 
